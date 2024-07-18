@@ -406,7 +406,7 @@ function canvas2() {
             canvas.height = window.innerHeight;
             render();
       });
-
+/* 
       function files(index) {
             var data = `
     
@@ -550,8 +550,174 @@ function canvas2() {
     `;
             return data.split("\n")[index];
       }
+            */
+      function files(index) {
+            var data = `
+    ./assets/img/frames/titan-watch_000.jpg
+    ./assets/img/frames/titan-watch_001.jpg
+    ./assets/img/frames/titan-watch_002.jpg
+    ./assets/img/frames/titan-watch_003.jpg
+    ./assets/img/frames/titan-watch_004.jpg
+    ./assets/img/frames/titan-watch_005.jpg
+    ./assets/img/frames/titan-watch_006.jpg
+    ./assets/img/frames/titan-watch_007.jpg
+    ./assets/img/frames/titan-watch_008.jpg
+    ./assets/img/frames/titan-watch_009.jpg
+    ./assets/img/frames/titan-watch_010.jpg
+    ./assets/img/frames/titan-watch_011.jpg
+    ./assets/img/frames/titan-watch_012.jpg
+    ./assets/img/frames/titan-watch_013.jpg
+    ./assets/img/frames/titan-watch_014.jpg
+    ./assets/img/frames/titan-watch_015.jpg
+    ./assets/img/frames/titan-watch_016.jpg
+    ./assets/img/frames/titan-watch_017.jpg
+    ./assets/img/frames/titan-watch_018.jpg
+    ./assets/img/frames/titan-watch_019.jpg
+    ./assets/img/frames/titan-watch_020.jpg
+    ./assets/img/frames/titan-watch_021.jpg
+    ./assets/img/frames/titan-watch_022.jpg
+    ./assets/img/frames/titan-watch_023.jpg
+    ./assets/img/frames/titan-watch_024.jpg
+    ./assets/img/frames/titan-watch_025.jpg
+    ./assets/img/frames/titan-watch_026.jpg
+    ./assets/img/frames/titan-watch_027.jpg
+    ./assets/img/frames/titan-watch_028.jpg
+    ./assets/img/frames/titan-watch_029.jpg
+    ./assets/img/frames/titan-watch_030.jpg
+    ./assets/img/frames/titan-watch_031.jpg
+    ./assets/img/frames/titan-watch_032.jpg
+    ./assets/img/frames/titan-watch_033.jpg
+    ./assets/img/frames/titan-watch_034.jpg
+    ./assets/img/frames/titan-watch_035.jpg
+    ./assets/img/frames/titan-watch_036.jpg
+    ./assets/img/frames/titan-watch_037.jpg
+    ./assets/img/frames/titan-watch_038.jpg
+    ./assets/img/frames/titan-watch_039.jpg
+    ./assets/img/frames/titan-watch_040.jpg
+    ./assets/img/frames/titan-watch_041.jpg
+    ./assets/img/frames/titan-watch_042.jpg
+    ./assets/img/frames/titan-watch_043.jpg
+    ./assets/img/frames/titan-watch_044.jpg
+    ./assets/img/frames/titan-watch_045.jpg
+    ./assets/img/frames/titan-watch_046.jpg
+    ./assets/img/frames/titan-watch_047.jpg
+    ./assets/img/frames/titan-watch_048.jpg
+    ./assets/img/frames/titan-watch_049.jpg
+    ./assets/img/frames/titan-watch_050.jpg
+    ./assets/img/frames/titan-watch_051.jpg
+    ./assets/img/frames/titan-watch_052.jpg
+    ./assets/img/frames/titan-watch_053.jpg
+    ./assets/img/frames/titan-watch_054.jpg
+    ./assets/img/frames/titan-watch_055.jpg
+    ./assets/img/frames/titan-watch_056.jpg
+    ./assets/img/frames/titan-watch_057.jpg
+    ./assets/img/frames/titan-watch_058.jpg
+    ./assets/img/frames/titan-watch_059.jpg
+    ./assets/img/frames/titan-watch_060.jpg
+    ./assets/img/frames/titan-watch_061.jpg
+    ./assets/img/frames/titan-watch_062.jpg
+    ./assets/img/frames/titan-watch_063.jpg
+    ./assets/img/frames/titan-watch_064.jpg
+    ./assets/img/frames/titan-watch_065.jpg
+    ./assets/img/frames/titan-watch_066.jpg
+    ./assets/img/frames/titan-watch_067.jpg
+    ./assets/img/frames/titan-watch_068.jpg
+    ./assets/img/frames/titan-watch_069.jpg
+    ./assets/img/frames/titan-watch_070.jpg
+    ./assets/img/frames/titan-watch_071.jpg
+    ./assets/img/frames/titan-watch_072.jpg
+    ./assets/img/frames/titan-watch_073.jpg
+    ./assets/img/frames/titan-watch_074.jpg
+    ./assets/img/frames/titan-watch_075.jpg
+    ./assets/img/frames/titan-watch_076.jpg
+    ./assets/img/frames/titan-watch_077.jpg
+    ./assets/img/frames/titan-watch_078.jpg
+    ./assets/img/frames/titan-watch_079.jpg
+    ./assets/img/frames/titan-watch_080.jpg
+    ./assets/img/frames/titan-watch_081.jpg
+    ./assets/img/frames/titan-watch_082.jpg
+    ./assets/img/frames/titan-watch_083.jpg
+    ./assets/img/frames/titan-watch_084.jpg
+    ./assets/img/frames/titan-watch_085.jpg
+    ./assets/img/frames/titan-watch_086.jpg
+    ./assets/img/frames/titan-watch_087.jpg
+    ./assets/img/frames/titan-watch_088.jpg
+    ./assets/img/frames/titan-watch_089.jpg
+    ./assets/img/frames/titan-watch_090.jpg
+    ./assets/img/frames/titan-watch_091.jpg
+    ./assets/img/frames/titan-watch_092.jpg
+    ./assets/img/frames/titan-watch_093.jpg
+    ./assets/img/frames/titan-watch_094.jpg
+    ./assets/img/frames/titan-watch_095.jpg
+    ./assets/img/frames/titan-watch_096.jpg
+    ./assets/img/frames/titan-watch_097.jpg
+    ./assets/img/frames/titan-watch_098.jpg
+    ./assets/img/frames/titan-watch_099.jpg
+    ./assets/img/frames/titan-watch_100.jpg
+    ./assets/img/frames/titan-watch_101.jpg
+    ./assets/img/frames/titan-watch_102.jpg
+    ./assets/img/frames/titan-watch_103.jpg
+    ./assets/img/frames/titan-watch_104.jpg
+    ./assets/img/frames/titan-watch_105.jpg
+    ./assets/img/frames/titan-watch_106.jpg
+    ./assets/img/frames/titan-watch_107.jpg
+    ./assets/img/frames/titan-watch_108.jpg
+    ./assets/img/frames/titan-watch_109.jpg
+    ./assets/img/frames/titan-watch_110.jpg
+    ./assets/img/frames/titan-watch_111.jpg
+    ./assets/img/frames/titan-watch_112.jpg
+    ./assets/img/frames/titan-watch_113.jpg
+    ./assets/img/frames/titan-watch_114.jpg
+    ./assets/img/frames/titan-watch_115.jpg
+    ./assets/img/frames/titan-watch_116.jpg
+    ./assets/img/frames/titan-watch_117.jpg
+    ./assets/img/frames/titan-watch_118.jpg
+    ./assets/img/frames/titan-watch_119.jpg
+    ./assets/img/frames/titan-watch_120.jpg
+    ./assets/img/frames/titan-watch_121.jpg
+    ./assets/img/frames/titan-watch_122.jpg
+    ./assets/img/frames/titan-watch_123.jpg
+    ./assets/img/frames/titan-watch_124.jpg
+    ./assets/img/frames/titan-watch_125.jpg
+    ./assets/img/frames/titan-watch_126.jpg
+    ./assets/img/frames/titan-watch_127.jpg
+    ./assets/img/frames/titan-watch_128.jpg
+    ./assets/img/frames/titan-watch_129.jpg
+    ./assets/img/frames/titan-watch_130.jpg
+    ./assets/img/frames/titan-watch_131.jpg
+    ./assets/img/frames/titan-watch_132.jpg
+    ./assets/img/frames/titan-watch_133.jpg
+    ./assets/img/frames/titan-watch_134.jpg
+    ./assets/img/frames/titan-watch_135.jpg
+    ./assets/img/frames/titan-watch_136.jpg
+    ./assets/img/frames/titan-watch_137.jpg
+    ./assets/img/frames/titan-watch_138.jpg
+    ./assets/img/frames/titan-watch_139.jpg
+    ./assets/img/frames/titan-watch_140.jpg
+    ./assets/img/frames/titan-watch_141.jpg
+    ./assets/img/frames/titan-watch_142.jpg
+    ./assets/img/frames/titan-watch_143.jpg
+    ./assets/img/frames/titan-watch_144.jpg
+    ./assets/img/frames/titan-watch_145.jpg
+    ./assets/img/frames/titan-watch_146.jpg
+    ./assets/img/frames/titan-watch_147.jpg
+    ./assets/img/frames/titan-watch_148.jpg
+    ./assets/img/frames/titan-watch_149.jpg
+    ./assets/img/frames/titan-watch_150.jpg
+    ./assets/img/frames/titan-watch_151.jpg
+    ./assets/img/frames/titan-watch_152.jpg
+    ./assets/img/frames/titan-watch_153.jpg
+    ./assets/img/frames/titan-watch_154.jpg
+    ./assets/img/frames/titan-watch_155.jpg
+    ./assets/img/frames/titan-watch_156.jpg
+    ./assets/img/frames/titan-watch_157.jpg
+    ./assets/img/frames/titan-watch_158.jpg
+    ./assets/img/frames/titan-watch_159.jpg
+      `;
+            return data.split("\n")[index];
+        }
 
-      const frameCount = 136;
+      const frameCount = 160;
 
       const images = [];
       const imageSeq = {
